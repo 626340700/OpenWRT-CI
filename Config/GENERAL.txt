@@ -1,3 +1,28 @@
+# bootstrap
+CONFIG_PACKAGE_luci-theme-bootstrap=y
+
+# DDNS
+#CONFIG_PACKAGE_luci-app-ddns=n
+#CONFIG_PACKAGE_luci-i18n-ddns-zh-cn=n
+
+#DDNS-GO
+CONFIG_PACKAGE_luci-app-ddns-go=y
+CONFIG_PACKAGE_luci-i18n-ddns-go-zh-cn=y
+
+#wireguard安装
+#CONFIG_PACKAGE_luci-proto-wireguard=n
+#CONFIG_PACKAGE_qrencode=n
+#CONFIG_PACKAGE_libqrencode=n
+
+#easytier安装
+CONFIG_PACKAGE_luci-app-easytier=y
+
+#  openclash
+CONFIG_PACKAGE_luci-app-openclash=n
+
+#  Nikki
+CONFIG_PACKAGE_luci-app-nikki=y
+
 #科学插件调整
 CONFIG_PACKAGE_luci-app-homeproxy=y
 #增加插件
